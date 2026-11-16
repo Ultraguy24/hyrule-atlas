@@ -27,7 +27,6 @@ export interface MapCoordinateBounds {
 export interface GuideStep {
   title: string;
   description: string;
-  /** Optional project-hosted screenshot, relative to the public directory. */
   image?: string;
   imageAlt?: string;
 }
@@ -40,10 +39,8 @@ export interface AtlasEntry {
   region: string;
   coordinates?: MapCoordinates;
   summary: string;
-  /** Optional classification tags such as DLC or Champions’ Ballad. */
   tags?: string[];
   guide?: GuideStep[];
-  /** True for illustrative starter entries whose locations are not verified. */
   sample?: boolean;
 }
 
