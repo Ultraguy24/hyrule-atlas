@@ -11,10 +11,17 @@ export type CategoryId =
   | 'divine-beast';
 
 export interface MapCoordinates {
-  /** Horizontal position in the game map image coordinate space. */
+  /** Normalized horizontal position from the community map reference. */
   x: number;
-  /** Vertical position measured from the top of the game map image. */
+  /** Normalized vertical position from the community map reference (north is larger). */
   y: number;
+}
+
+export interface MapCoordinateBounds {
+  minX: number;
+  maxX: number;
+  minY: number;
+  maxY: number;
 }
 
 export interface GuideStep {
@@ -33,6 +40,8 @@ export interface AtlasEntry {
   region: string;
   coordinates?: MapCoordinates;
   summary: string;
+  /** Optional classification tags such as DLC or Champions’ Ballad. */
+  tags?: string[];
   guide?: GuideStep[];
   /** True for illustrative starter entries whose locations are not verified. */
   sample?: boolean;
@@ -44,7 +53,7 @@ export interface GameDefinition {
   subtitle: string;
   status: 'available' | 'planned';
   description: string;
-  map: { image: string; width: number; height: number } | null;
+  map: { image: string; width: number; height: number; coordinateBounds: MapCoordinateBounds } | null;
 }
 
 export type ProgressByGame = Record<GameId, string[]>;
