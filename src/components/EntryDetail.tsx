@@ -22,6 +22,7 @@ export function EntryDetail({ entry, complete, onClose, onToggleComplete }: Entr
         <div>
           <h2>{entry.name}</h2>
           <p className="detail-region"><MapPin size={13} /> {entry.region}</p>
+          {entry.tags?.length ? <div className="detail-tags">{entry.tags.map((tag) => <span className="entry-tag" key={tag}>{tag}</span>)}</div> : null}
         </div>
       </div>
       {entry.sample && <div className="sample-note">Preview record · location and details are illustrative</div>}
