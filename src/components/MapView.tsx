@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import L from 'leaflet';
 import { ImageOverlay, MapContainer, Marker, useMap } from 'react-leaflet';
-import type { AtlasEntry, CategoryId } from '../types/game';
+import type { AtlasEntry, CategoryId, MapCoordinateBounds } from '../types/game';
 import { categoryById } from '../data/categories';
 import 'leaflet/dist/leaflet.css';
 
@@ -13,21 +13,34 @@ function FitMap({ resetKey, bounds }: { resetKey: number; bounds: L.LatLngBounds
   return null;
 }
 
-function toLeafletPosition(entry: AtlasEntry, mapHeight: number): [number, number] {
+function toLeafletPosition(
+  entry: AtlasEntry,
+  mapWidth: number,
+  mapHeight: number,
+  coordinateBounds: MapCoordinateBounds,
+): [number, number] {
   const coords = entry.coordinates!;
-  return [mapHeight - coords.y, coords.x];
+  const pixelX = ((coords.x - coordinateBounds.minX) / (coordinateBounds.maxX - coordinateBounds.minX)) * mapWidth;
+  const pixelY = ((coordinateBounds.maxY - coords.y) / (coordinateBounds.maxY - coordinateBounds.minY)) * mapHeight;
+  // Leaflet's simple CRS has an upward-positive vertical axis; image pixels start at the top.
+  return [mapHeight - pixelY, pixelX];
 }
 
-
-function FocusSelected({ entries, selectedId, mapHeight }: { entries: AtlasEntry[]; selectedId: string | null; mapHeight: number }) {
+function FocusSelected({ entries, selectedId, mapWidth, mapHeight, coordinateBounds }: {
+  entries: AtlasEntry[];
+  selectedId: string | null;
+  mapWidth: number;
+  mapHeight: number;
+  coordinateBounds: MapCoordinateBounds;
+}) {
   const map = useMap();
   useEffect(() => {
     if (!selectedId) return;
     const selected = entries.find((entry) => entry.id === selectedId);
     if (selected?.coordinates) {
-      map.flyTo(toLeafletPosition(selected, mapHeight), Math.max(map.getZoom(), 0.4), { duration: 0.45 });
+      map.flyTo(toLeafletPosition(selected, mapWidth, mapHeight, coordinateBounds), Math.max(map.getZoom(), 0.4), { duration: 0.45 });
     }
-  }, [entries, map, mapHeight, selectedId]);
+  }, [entries, map, mapWidth, mapHeight, coordinateBounds, selectedId]);
   return null;
 }
 
@@ -52,9 +65,10 @@ interface MapViewProps {
   mapImage: string;
   mapWidth: number;
   mapHeight: number;
+  coordinateBounds: MapCoordinateBounds;
 }
 
-export function MapView({ entries, visibleCategories, completed, selectedId, onSelect, resetKey, mapImage, mapWidth, mapHeight }: MapViewProps) {
+export function MapView({ entries, visibleCategories, completed, selectedId, onSelect, resetKey, mapImage, mapWidth, mapHeight, coordinateBounds }: MapViewProps) {
   const mapBounds = useMemo<L.LatLngBoundsExpression>(() => [[0, 0], [mapHeight, mapWidth]], [mapHeight, mapWidth]);
   const mapImageUrl = `${import.meta.env.BASE_URL}${mapImage}`;
   const visibleEntries = entries.filter((entry) => entry.coordinates && visibleCategories.has(entry.category));
@@ -75,11 +89,11 @@ export function MapView({ entries, visibleCategories, completed, selectedId, onS
     >
       <ImageOverlay url={mapImageUrl} bounds={mapBounds} />
       <FitMap resetKey={resetKey} bounds={mapBounds} />
-      <FocusSelected entries={entries} selectedId={selectedId} mapHeight={mapHeight} />
+      <FocusSelected entries={entries} selectedId={selectedId} mapWidth={mapWidth} mapHeight={mapHeight} coordinateBounds={coordinateBounds} />
       {visibleEntries.map((entry) => (
         <Marker
           key={entry.id}
-          position={toLeafletPosition(entry, mapHeight)}
+          position={toLeafletPosition(entry, mapWidth, mapHeight, coordinateBounds)}
           icon={markerIcon(entry.category, completed.has(entry.id))}
           eventHandlers={{ click: () => onSelect(entry) }}
           zIndexOffset={selectedId === entry.id ? 1000 : 0}
