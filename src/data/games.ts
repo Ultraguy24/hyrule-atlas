@@ -7,7 +7,13 @@ export const games: GameDefinition[] = [
     subtitle: 'BOTW',
     status: 'available',
     description: 'Explore Hyrule, find every shrine and Korok, and track your journey.',
-    map: { image: 'maps/botw-preview-map.svg', width: 1500, height: 1000 },
+    map: {
+      image: 'maps/botw-preview-map.svg',
+      width: 1280,
+      height: 1000,
+      // Bounds of the normalized coordinate reference used by the BOTW POI dataset.
+      coordinateBounds: { minX: -1.05, maxX: -0.37, minY: 0.44, maxY: 0.97 },
+    },
   },
   {
     id: 'totk',
