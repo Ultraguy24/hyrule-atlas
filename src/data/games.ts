@@ -8,11 +8,21 @@ export const games: GameDefinition[] = [
     status: 'available',
     description: 'Explore Hyrule, find every shrine and Korok, and track your journey.',
     map: {
-      image: 'maps/botw-preview-map.svg',
-      width: 1280,
-      height: 1000,
-      // Bounds of the normalized coordinate reference used by the BOTW POI dataset.
-      coordinateBounds: { minX: -1.05, maxX: -0.37, minY: 0.44, maxY: 0.97 },
+      image: 'maps/botw-map.png',
+      width: 2048,
+      height: 1706,
+      projection: {
+        referenceWidth: 6000,
+        referenceHeight: 5000,
+        originX: 3000,
+        originY: 2500,
+        pixelsPerWorldUnit: 0.5,
+      },
+      attribution: {
+        label: "MrCheeze's BOTW Waypoint Map",
+        url: 'https://github.com/MrCheeze/botw-waypoint-map',
+        note: 'Map image reproduced with express permission from MrCheeze.',
+      },
     },
   },
   {
