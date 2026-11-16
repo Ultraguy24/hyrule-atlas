@@ -10,18 +10,19 @@ export type CategoryId =
   | 'quest'
   | 'divine-beast';
 
+/** BOTW game-world coordinates. X increases east; Y increases south. */
 export interface MapCoordinates {
-  /** Normalized horizontal position from the community map reference. */
   x: number;
-  /** Normalized vertical position from the community map reference (north is larger). */
   y: number;
 }
 
-export interface MapCoordinateBounds {
-  minX: number;
-  maxX: number;
-  minY: number;
-  maxY: number;
+/** Original-image coordinate transform used by a game's map artwork. */
+export interface MapProjection {
+  referenceWidth: number;
+  referenceHeight: number;
+  originX: number;
+  originY: number;
+  pixelsPerWorldUnit: number;
 }
 
 export interface GuideStep {
@@ -38,6 +39,7 @@ export interface AtlasEntry {
   name: string;
   region: string;
   coordinates?: MapCoordinates;
+  sourceCoordinates?: MapCoordinates;
   summary: string;
   tags?: string[];
   guide?: GuideStep[];
@@ -50,7 +52,17 @@ export interface GameDefinition {
   subtitle: string;
   status: 'available' | 'planned';
   description: string;
-  map: { image: string; width: number; height: number; coordinateBounds: MapCoordinateBounds } | null;
+  map: {
+    image: string;
+    width: number;
+    height: number;
+    projection: MapProjection;
+    attribution: {
+      label: string;
+      url: string;
+      note: string;
+    };
+  } | null;
 }
 
 export type ProgressByGame = Record<GameId, string[]>;
