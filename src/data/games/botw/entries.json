@@ -1,119 +1,2166 @@
 [
   {
-    "id": "sample-shrine-01",
+    "id": "shrine-tho-kayu",
     "game": "botw",
     "category": "shrine",
-    "name": "Oman Au Shrine (sample)",
+    "name": "Tho Kayu Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -1.012,
+      "y": 0.523
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-bareeda-naag",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Bareeda Naag Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.935,
+      "y": 0.801
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-voo-lota",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Voo Lota Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.962,
+      "y": 0.814
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-keeha-yoog",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Keeha Yoog Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.951,
+      "y": 0.657
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sasa-kai",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sasa Kai Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.932,
+      "y": 0.577
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sho-dantu",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sho Dantu Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.955,
+      "y": 0.597
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-raqa-zunzo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Raqa Zunzo Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.948,
+      "y": 0.502
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-toh-yahsa",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Toh Yahsa Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.849,
+      "y": 0.761
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-mijah-rokee",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mijah Rokee Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.88,
+      "y": 0.689
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-joloo-nah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Joloo Nah Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.832,
+      "y": 0.595
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-korsh-ohu",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Korsh O'hu Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.876,
+      "y": 0.522
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sheem-dagoze",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sheem Dagoze Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.825,
+      "y": 0.697
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-suma-sahma",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Suma Sahma Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.794,
+      "y": 0.481
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-saas-kosah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Saas Ko'sah Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.713,
+      "y": 0.778
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ketoh-wawai",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ketoh Wawai Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.685,
+      "y": 0.904
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kuhn-sidajj",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kuhn Sidajj Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.702,
+      "y": 0.828
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shoqa-tatone",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shoqa Tatone Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.697,
+      "y": 0.456
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-lakna-rokee",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Lakna Rokee Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.572,
+      "y": 0.641
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-mezza-lo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mezza Lo Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.534,
+      "y": 0.679
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kam-urog",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kam Urog Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.542,
+      "y": 0.607
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tawa-jinn",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tawa Jinn Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.533,
+      "y": 0.521
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dagah-keek",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dagah Keek Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.5,
+      "y": 0.73
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kah-yah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kah Yah Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.482,
+      "y": 0.49
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ritaag-zumo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ritaag Zumo Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.412,
+      "y": 0.84
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shai-yota",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shai Yota Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.43,
+      "y": 0.687
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-korgu-chideh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Korgu Chideh Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.398,
+      "y": 0.46
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-hia-miu",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Hia Miu Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.989,
+      "y": 0.948
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-to-quomo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "To Quomo Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.962,
+      "y": 0.942
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-maka-rah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Maka Rah Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.964,
+      "y": 0.865
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kah-okeo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kah Okeo Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.968,
+      "y": 0.73
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kema-kosassa",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kema Kosassa Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -1.003,
+      "y": 0.645
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kema-zoos",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kema Zoos Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -1.004,
+      "y": 0.576
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-hawa-koth",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Hawa Koth Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -1.015,
+      "y": 0.46
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shada-naw",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shada Naw Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.896,
+      "y": 0.91
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-mozo-shenno",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mozo Shenno Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.937,
+      "y": 0.899
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sha-warvo",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sha Warvo Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.949,
+      "y": 0.845
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-akh-vaquot",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Akh Va'quot Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.939,
+      "y": 0.816
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tena-kosah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tena Ko'sah Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.926,
+      "y": 0.732
+    },
+    "summary": "Standard Breath of the Wild shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kuh-takkar",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kuh Takkar Shrine",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.902,
+      "y": 0.625
+    },
+    "summary": "Standard Breath of the Wild shrine in the Gerudo region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dako-tah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dako Tah Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.917,
+      "y": 0.564
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-daqo-chisay",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Daqo Chisay Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.949,
+      "y": 0.522
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-rok-uwog",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rok Uwog Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.856,
+      "y": 0.911
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-gee-harah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Gee Ha'rah Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.856,
+      "y": 0.848
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-goma-asaagh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Goma Asaagh Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.883,
+      "y": 0.889
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-lanno-kooh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Lanno Kooh Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.873,
+      "y": 0.836
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dunba-taag",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dunba Taag Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.885,
+      "y": 0.805
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shae-loya",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shae Loya Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.892,
+      "y": 0.731
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-mogg-latan",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mogg Latan Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.851,
+      "y": 0.673
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kay-noh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kay Noh Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.884,
+      "y": 0.555
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-misae-suma",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Misae Suma Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.894,
+      "y": 0.46
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sha-gehma",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sha Gehma Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.811,
+      "y": 0.945
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-rona-kachta",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rona Kachta Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.773,
+      "y": 0.874
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-rin-oyaa",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rin Oyaa Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.814,
+      "y": 0.868
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-monya-toma",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Monya Toma Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.799,
+      "y": 0.798
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-maag-norah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Maag No'rah Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.828,
+      "y": 0.797
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-zalta-wa",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Zalta Wa Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.795,
+      "y": 0.741
+    },
+    "summary": "Standard Breath of the Wild shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-rota-ooh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rota Ooh Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.804,
+      "y": 0.619
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dah-kaso",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dah Kaso Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.812,
+      "y": 0.594
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-keh-namut",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Keh Namut Shrine",
     "region": "Great Plateau",
-    "coordinates": { "x": 610, "y": 585 },
-    "summary": "Magnesis Trial. This is an illustrative entry for testing the map and checklist.",
-    "sample": true,
-    "guide": [
-      { "title": "Enter the shrine", "description": "Use this sample guide to preview how walkthrough steps will appear." },
-      { "title": "Use Magnesis", "description": "The finished guide will include verified puzzle instructions and screenshots where useful." }
+    "coordinates": {
+      "x": -0.796,
+      "y": 0.575
+    },
+    "summary": "Standard Breath of the Wild shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-jee-noh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Jee Noh Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.819,
+      "y": 0.547
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dila-maag",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dila Maag Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.819,
+      "y": 0.48
+    },
+    "summary": "Standard Breath of the Wild shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-qaza-tokki",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Qaza Tokki Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.756,
+      "y": 0.931
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-daag-chokah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Daag Chokah Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.705,
+      "y": 0.861
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-katah-chuki",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Katah Chuki Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.744,
+      "y": 0.725
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-noya-neha",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Noya Neha Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.764,
+      "y": 0.743
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kaam-yatak",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kaam Ya'tak Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.765,
+      "y": 0.657
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ja-baij",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ja Baij Shrine",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.732,
+      "y": 0.575
+    },
+    "summary": "Standard Breath of the Wild shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-oman-au",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Oman Au Shrine",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.747,
+      "y": 0.606
+    },
+    "summary": "Standard Breath of the Wild shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ya-naga",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ya Naga Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.724,
+      "y": 0.536
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-owa-daim",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Owa Daim Shrine",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.763,
+      "y": 0.554
+    },
+    "summary": "Standard Breath of the Wild shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ishto-soh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ishto Soh Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.767,
+      "y": 0.474
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-keo-ruug",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Keo Ruug Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.673,
+      "y": 0.843
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-maag-halan",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Maag Halan Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.649,
+      "y": 0.859
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-namika-ozz",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Namika Ozz Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.654,
+      "y": 0.756
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kaya-wan",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kaya Wan Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.65,
+      "y": 0.691
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-hila-rao",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Hila Rao Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.648,
+      "y": 0.649
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-wahgo-katta",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Wahgo Katta Shrine",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.681,
+      "y": 0.638
+    },
+    "summary": "Standard Breath of the Wild shrine in the Central region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-bosh-kala",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Bosh Kala Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.698,
+      "y": 0.596
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-pumaag-nitae",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Pumaag Nitae Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.667,
+      "y": 0.511
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shae-katha",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shae Katha Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.647,
+      "y": 0.553
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kao-makagh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ka'o Makagh Shrine",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.669,
+      "y": 0.476
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lake region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shora-hah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shora Hah Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.604,
+      "y": 0.904
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shae-mosah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shae Mo'sah Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.59,
+      "y": 0.868
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-qua-raym",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Qua Raym Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.586,
+      "y": 0.801
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-mirro-shaz",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mirro Shaz Shrine",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.624,
+      "y": 0.781
+    },
+    "summary": "Standard Breath of the Wild shrine in the Woodland region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sheh-rata",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sheh Rata Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.606,
+      "y": 0.727
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-daka-tuss",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Daka Tuss Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.6,
+      "y": 0.673
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-taloh-naeg",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ta'loh Naeg Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.585,
+      "y": 0.646
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ha-dahamar",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ha Dahamar Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.596,
+      "y": 0.579
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shee-vaneer",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shee Vaneer Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.622,
+      "y": 0.578
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shee-venath",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shee Venath Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.623,
+      "y": 0.584
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ree-dahee",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ree Dahee Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.621,
+      "y": 0.584
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-toto-sah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Toto Sah Shrine",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.584,
+      "y": 0.544
+    },
+    "summary": "Standard Breath of the Wild shrine in the Dueling Peaks region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shai-utoh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shai Utoh Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.601,
+      "y": 0.47
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-shoda-sah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shoda Sah Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.588,
+      "y": 0.511
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-gorae-torr",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Gorae Torr Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.532,
+      "y": 0.926
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-daqa-koh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Daqa Koh Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.57,
+      "y": 0.853
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kayra-mah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kayra Mah Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.569,
+      "y": 0.834
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-moa-keet",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mo'a Keet Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.528,
+      "y": 0.778
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-sah-dahaj",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sah Dahaj Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.532,
+      "y": 0.805
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tah-muhl",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tah Muhl Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.555,
+      "y": 0.764
+    },
+    "summary": "Standard Breath of the Wild shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-soh-kofi",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Soh Kofi Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.559,
+      "y": 0.722
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dow-naeh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dow Na'eh Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.53,
+      "y": 0.617
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-yah-rin",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Yah Rin Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.521,
+      "y": 0.49
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-qukah-nata",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Qukah Nata Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.574,
+      "y": 0.492
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-zuna-kai",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Zuna Kai Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.489,
+      "y": 0.923
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tutsuwa-nima",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tutsuwa Nima Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.46,
+      "y": 0.877
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-dah-hesho",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Dah Hesho Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.452,
+      "y": 0.787
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-ze-kasho",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ze Kasho Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.508,
+      "y": 0.81
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-neez-yohma",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ne'ez Yohma Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.489,
+      "y": 0.737
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-rucco-maag",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rucco Maag Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.489,
+      "y": 0.677
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-jitan-sami",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Jitan Sa'mi Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.453,
+      "y": 0.618
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-myahm-agana",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Myahm Agana Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.485,
+      "y": 0.56
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-muwo-jeem",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Muwo Jeem Shrine",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.468,
+      "y": 0.49
+    },
+    "summary": "Standard Breath of the Wild shrine in the Faron region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tu-kaloh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tu Ka'loh Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.404,
+      "y": 0.942
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-katosa-aug",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Katosa Aug Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.427,
+      "y": 0.879
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kah-mael",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kah Mael Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.4,
+      "y": 0.787
+    },
+    "summary": "Standard Breath of the Wild shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-kenai-shakah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ke'nai Shakah Shrine",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.433,
+      "y": 0.758
+    },
+    "summary": "Standard Breath of the Wild shrine in the Akkala region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-tahno-oah",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Tahno O'ah Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.434,
+      "y": 0.595
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-chaas-qeta",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Chaas Qeta Shrine",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.445,
+      "y": 0.511
+    },
+    "summary": "Standard Breath of the Wild shrine in the Hateno region. A verified trial walkthrough and treasure details will be added here."
+  },
+  {
+    "id": "shrine-yowaka-ita",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Yowaka Ita Shrine",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.764,
+      "y": 0.595
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
     ]
   },
   {
-    "id": "sample-shrine-02",
+    "id": "shrine-rohta-chigah",
     "game": "botw",
     "category": "shrine",
-    "name": "Ja Baij Shrine (sample)",
+    "name": "Rohta Chigah Shrine",
     "region": "Great Plateau",
-    "coordinates": { "x": 520, "y": 700 },
-    "summary": "Bomb Trial. Illustrative position only; not a verified map coordinate.",
-    "sample": true,
-    "guide": [{ "title": "Complete the trial", "description": "A verified step-by-step shrine walkthrough will be added here." }]
+    "coordinates": {
+      "x": -0.736,
+      "y": 0.587
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
   },
   {
-    "id": "sample-shrine-03",
+    "id": "shrine-ruvo-korbah",
     "game": "botw",
     "category": "shrine",
-    "name": "Keh Namut Shrine (sample)",
+    "name": "Ruvo Korbah Shrine",
     "region": "Great Plateau",
-    "coordinates": { "x": 340, "y": 440 },
-    "summary": "Cryonis Trial. Illustrative entry for the initial interface.",
-    "sample": true,
-    "guide": [{ "title": "Complete the trial", "description": "The production guide will contain verified steps, treasure chest details and screenshots." }]
+    "coordinates": {
+      "x": -0.757,
+      "y": 0.565
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
   },
   {
-    "id": "sample-tower-01",
+    "id": "shrine-etsu-korima",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Etsu Korima Shrine",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.781,
+      "y": 0.567
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Great Plateau region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-kee-dafunia",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kee Dafunia Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.39,
+      "y": 0.766
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-sato-koda",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sato Koda Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.503,
+      "y": 0.757
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-mah-eliya",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Mah Eliya Shrine",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.461,
+      "y": 0.745
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Lanayru region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-kamia-omuna",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kamia Omuna Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.566,
+      "y": 0.91
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-sharo-lun",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Sharo Lun Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.514,
+      "y": 0.858
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-rinu-honika",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Rinu Honika Shrine",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.559,
+      "y": 0.831
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Eldin region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-shira-gomar",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Shira Gomar Shrine",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.856,
+      "y": 0.792
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Ridgeland region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-kiah-toza",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kiah Toza Shrine",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.842,
+      "y": 0.908
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Hebra region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-noe-rajee",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Noe Rajee Shrine",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.949,
+      "y": 0.852
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Tabantha region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-keive-tala",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Keive Tala Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.854,
+      "y": 0.452
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-takama-shiri",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Takama Shiri Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -1.018,
+      "y": 0.564
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "shrine-kihiro-moh",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Kihiro Moh Shrine",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.922,
+      "y": 0.616
+    },
+    "summary": "Champions’ Ballad DLC shrine in the Wasteland region. A verified trial walkthrough and treasure details will be added here.",
+    "tags": [
+      "DLC",
+      "Champions’ Ballad"
+    ]
+  },
+  {
+    "id": "tower-tabantha",
     "game": "botw",
     "category": "tower",
-    "name": "Great Plateau Tower (sample)",
-    "region": "Great Plateau",
-    "coordinates": { "x": 490, "y": 570 },
-    "summary": "A Sheikah Tower. Sample position only.",
-    "sample": true
+    "name": "Tabantha Tower",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.935,
+      "y": 0.766
+    },
+    "summary": "Sheikah Tower in the Tabantha region. Activate it to reveal the surrounding map area."
   },
   {
-    "id": "sample-korok-01",
+    "id": "tower-gerudo",
     "game": "botw",
-    "category": "korok",
-    "name": "Korok Seed 001 (sample)",
-    "region": "Great Plateau",
-    "coordinates": { "x": 455, "y": 620 },
-    "summary": "A sample Korok checklist entry. Its coordinates and puzzle are placeholders.",
-    "sample": true,
-    "guide": [{ "title": "Find the Korok", "description": "The final data set will include the correct puzzle type, nearby landmark and solution." }]
+    "category": "tower",
+    "name": "Gerudo Tower",
+    "region": "Gerudo",
+    "coordinates": {
+      "x": -0.939,
+      "y": 0.585
+    },
+    "summary": "Sheikah Tower in the Gerudo region. Activate it to reveal the surrounding map area."
   },
   {
-    "id": "sample-korok-02",
+    "id": "tower-hebra",
     "game": "botw",
-    "category": "korok",
-    "name": "Korok Seed 002 (sample)",
+    "category": "tower",
+    "name": "Hebra Tower",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.843,
+      "y": 0.834
+    },
+    "summary": "Sheikah Tower in the Hebra region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-wasteland",
+    "game": "botw",
+    "category": "tower",
+    "name": "Wasteland Tower",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.852,
+      "y": 0.546
+    },
+    "summary": "Sheikah Tower in the Wasteland region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-ridgeland",
+    "game": "botw",
+    "category": "tower",
+    "name": "Ridgeland Tower",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.816,
+      "y": 0.753
+    },
+    "summary": "Sheikah Tower in the Ridgeland region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-central",
+    "game": "botw",
+    "category": "tower",
+    "name": "Central Tower",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.754,
+      "y": 0.675
+    },
+    "summary": "Sheikah Tower in the Central region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-great-plateau",
+    "game": "botw",
+    "category": "tower",
+    "name": "Great Plateau Tower",
+    "region": "Great Plateau",
+    "coordinates": {
+      "x": -0.739,
+      "y": 0.594
+    },
+    "summary": "Sheikah Tower in the Great Plateau region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-lake",
+    "game": "botw",
+    "category": "tower",
+    "name": "Lake Tower",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.705,
+      "y": 0.512
+    },
+    "summary": "Sheikah Tower in the Lake region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-woodland",
+    "game": "botw",
+    "category": "tower",
+    "name": "Woodland Tower",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.646,
+      "y": 0.807
+    },
+    "summary": "Sheikah Tower in the Woodland region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-dueling-peaks",
+    "game": "botw",
+    "category": "tower",
+    "name": "Dueling Peaks Tower",
     "region": "Dueling Peaks",
-    "coordinates": { "x": 1010, "y": 665 },
-    "summary": "A second sample Korok entry to test search, filters and completion progress.",
-    "sample": true
+    "coordinates": {
+      "x": -0.638,
+      "y": 0.592
+    },
+    "summary": "Sheikah Tower in the Dueling Peaks region. Activate it to reveal the surrounding map area."
   },
   {
-    "id": "sample-stable-01",
+    "id": "tower-faron",
+    "game": "botw",
+    "category": "tower",
+    "name": "Faron Tower",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.617,
+      "y": 0.492
+    },
+    "summary": "Sheikah Tower in the Faron region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-eldin",
+    "game": "botw",
+    "category": "tower",
+    "name": "Eldin Tower",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.563,
+      "y": 0.803
+    },
+    "summary": "Sheikah Tower in the Eldin region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-lanayru",
+    "game": "botw",
+    "category": "tower",
+    "name": "Lanayru Tower",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.557,
+      "y": 0.71
+    },
+    "summary": "Sheikah Tower in the Lanayru region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-hateno",
+    "game": "botw",
+    "category": "tower",
+    "name": "Hateno Tower",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.527,
+      "y": 0.566
+    },
+    "summary": "Sheikah Tower in the Hateno region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "tower-akkala",
+    "game": "botw",
+    "category": "tower",
+    "name": "Akkala Tower",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.49,
+      "y": 0.8
+    },
+    "summary": "Sheikah Tower in the Akkala region. Activate it to reveal the surrounding map area."
+  },
+  {
+    "id": "stable-rito-stable",
     "game": "botw",
     "category": "stable",
-    "name": "Dueling Peaks Stable (sample)",
-    "region": "Dueling Peaks",
-    "coordinates": { "x": 1050, "y": 680 },
-    "summary": "A stable location. Sample position only.",
-    "sample": true
+    "name": "Rito Stable",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.913,
+      "y": 0.816
+    },
+    "summary": "Stable in the Tabantha region. Register horses, rest, and find travellers or side quests."
   },
   {
-    "id": "sample-town-01",
+    "id": "stable-dueling-peaks-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Dueling Peaks Stable",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.59,
+      "y": 0.579
+    },
+    "summary": "Stable in the Dueling Peaks region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-highland-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Highland Stable",
+    "region": "Lake",
+    "coordinates": {
+      "x": -0.669,
+      "y": 0.481
+    },
+    "summary": "Stable in the Lake region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-outskirt-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Outskirt Stable",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.796,
+      "y": 0.621
+    },
+    "summary": "Stable in the Central region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-south-akkala-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "South Akkala Stable",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.5,
+      "y": 0.812
+    },
+    "summary": "Stable in the Akkala region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-woodland-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Woodland Stable",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.635,
+      "y": 0.777
+    },
+    "summary": "Stable in the Woodland region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-east-akkala-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "East Akkala Stable",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.431,
+      "y": 0.88
+    },
+    "summary": "Stable in the Akkala region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-wetland-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Wetland Stable",
+    "region": "Lanayru",
+    "coordinates": {
+      "x": -0.646,
+      "y": 0.692
+    },
+    "summary": "Stable in the Lanayru region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-lakeside-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Lakeside Stable",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.603,
+      "y": 0.475
+    },
+    "summary": "Stable in the Faron region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-foothill-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Foothill Stable",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.535,
+      "y": 0.777
+    },
+    "summary": "Stable in the Eldin region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-gerudo-canyon-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Gerudo Canyon Stable",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.884,
+      "y": 0.56
+    },
+    "summary": "Stable in the Wasteland region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-riverside-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Riverside Stable",
+    "region": "Central",
+    "coordinates": {
+      "x": -0.681,
+      "y": 0.633
+    },
+    "summary": "Stable in the Central region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-serenne-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Serenne Stable",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.803,
+      "y": 0.819
+    },
+    "summary": "Stable in the Woodland region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-snowfield-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Snowfield Stable",
+    "region": "Hebra",
+    "coordinates": {
+      "x": -0.81,
+      "y": 0.869
+    },
+    "summary": "Stable in the Hebra region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "stable-tabantha-bridge-stable",
+    "game": "botw",
+    "category": "stable",
+    "name": "Tabantha Bridge Stable",
+    "region": "Ridgeland",
+    "coordinates": {
+      "x": -0.892,
+      "y": 0.738
+    },
+    "summary": "Stable in the Ridgeland region. Register horses, rest, and find travellers or side quests."
+  },
+  {
+    "id": "village-korok-forest",
     "game": "botw",
     "category": "town",
-    "name": "Kakariko Village (sample)",
-    "region": "Necluda",
-    "coordinates": { "x": 1160, "y": 570 },
-    "summary": "A village location. Sample position only.",
-    "sample": true
+    "name": "Korok Forest",
+    "region": "Woodland",
+    "coordinates": {
+      "x": -0.675,
+      "y": 0.84
+    },
+    "summary": "Settlement in the Woodland region. Discover shops, services, quests and local characters."
   },
   {
-    "id": "sample-memory-01",
+    "id": "village-rito-village",
     "game": "botw",
-    "category": "memory",
-    "name": "Captured Memory 01 (sample)",
-    "region": "Central Hyrule",
-    "coordinates": { "x": 760, "y": 300 },
-    "summary": "A story memory. This entry is illustrative and is not a real location record.",
-    "sample": true
+    "category": "town",
+    "name": "Rito Village",
+    "region": "Tabantha",
+    "coordinates": {
+      "x": -0.936,
+      "y": 0.819
+    },
+    "summary": "Settlement in the Tabantha region. Discover shops, services, quests and local characters."
   },
   {
-    "id": "sample-beast-01",
+    "id": "village-kakariko-village",
     "game": "botw",
-    "category": "divine-beast",
-    "name": "Divine Beast Vah Ruta (sample)",
+    "category": "town",
+    "name": "Kakariko Village",
+    "region": "Dueling Peaks",
+    "coordinates": {
+      "x": -0.586,
+      "y": 0.64
+    },
+    "summary": "Settlement in the Dueling Peaks region. Discover shops, services, quests and local characters."
+  },
+  {
+    "id": "village-hateno-village",
+    "game": "botw",
+    "category": "town",
+    "name": "Hateno Village",
+    "region": "Hateno",
+    "coordinates": {
+      "x": -0.472,
+      "y": 0.566
+    },
+    "summary": "Settlement in the Hateno region. Discover shops, services, quests and local characters."
+  },
+  {
+    "id": "village-zoras-domain",
+    "game": "botw",
+    "category": "town",
+    "name": "Zora's Domain",
     "region": "Lanayru",
-    "coordinates": { "x": 1230, "y": 380 },
-    "summary": "A main-story objective. Sample position only.",
-    "sample": true
+    "coordinates": {
+      "x": -0.493,
+      "y": 0.729
+    },
+    "summary": "Settlement in the Lanayru region. Discover shops, services, quests and local characters."
   },
   {
-    "id": "sample-quest-01",
+    "id": "village-goron-city",
     "game": "botw",
-    "category": "quest",
-    "name": "The Isolated Plateau (sample)",
-    "region": "Great Plateau",
-    "coordinates": { "x": 500, "y": 590 },
-    "summary": "A sample quest record used to demonstrate the story filter.",
-    "sample": true
+    "category": "town",
+    "name": "Goron City",
+    "region": "Eldin",
+    "coordinates": {
+      "x": -0.594,
+      "y": 0.862
+    },
+    "summary": "Settlement in the Eldin region. Discover shops, services, quests and local characters."
+  },
+  {
+    "id": "village-gerudo-town",
+    "game": "botw",
+    "category": "town",
+    "name": "Gerudo Town",
+    "region": "Wasteland",
+    "coordinates": {
+      "x": -0.95,
+      "y": 0.516
+    },
+    "summary": "Settlement in the Wasteland region. Discover shops, services, quests and local characters."
+  },
+  {
+    "id": "village-tarrey-town",
+    "game": "botw",
+    "category": "town",
+    "name": "Tarrey Town",
+    "region": "Akkala",
+    "coordinates": {
+      "x": -0.448,
+      "y": 0.807
+    },
+    "summary": "Settlement in the Akkala region. Discover shops, services, quests and local characters."
+  },
+  {
+    "id": "village-lurelin-village",
+    "game": "botw",
+    "category": "town",
+    "name": "Lurelin Village",
+    "region": "Faron",
+    "coordinates": {
+      "x": -0.51,
+      "y": 0.479
+    },
+    "summary": "Settlement in the Faron region. Discover shops, services, quests and local characters."
   }
 ]
