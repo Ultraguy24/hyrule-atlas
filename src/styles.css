@@ -144,6 +144,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .detail-symbol { width: 39px; height: 39px; display: grid; place-items: center; border: 1px solid; border-radius: 50%; font-size: 20px; }
 .detail-title-row h2 { margin: 0; color: #e8e5d7; font-family: var(--serif); font-size: 18px; font-weight: 400; }
 .detail-region { display: flex; align-items: center; gap: 4px; margin: 5px 0 0; color: #8d9d91; font-size: 10px; }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
 .sample-note { margin-top: 15px; padding: 7px 9px; color: #d7c493; border: 1px solid rgba(216,189,126,.2); border-radius: 4px; background: rgba(216,189,126,.07); font-size: 9px; }
 .detail-summary { margin: 16px 0; color: #b5c0b2; font-size: 11px; line-height: 1.65; }
 .complete-button { width: 100%; height: 39px; display: flex; align-items: center; justify-content: center; gap: 9px; color: #18221d; border: 1px solid #a3c2a8; border-radius: 5px; background: #9cbaa1; font-size: 11px; font-weight: 700; cursor: pointer; }
@@ -192,6 +193,8 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .entry-main { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 4px; padding: 5px 0; border: 0; background: transparent; text-align: left; cursor: pointer; }
 .entry-main strong { overflow: hidden; color: #cfd8ca; font-size: 10px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
 .entry-main span { color: #7e8e82; font-size: 9px; }
+.entry-meta { display: flex; align-items: center; gap: 7px; }
+.entry-tag { display: inline-flex; align-items: center; padding: 2px 5px; color: #d9bf83; border: 1px solid rgba(216,189,126,.25); border-radius: 3px; background: rgba(216,189,126,.08); font-family: var(--mono); font-size: 7px; font-style: normal; letter-spacing: .08em; line-height: 1.2; text-transform: uppercase; }
 .checklist-entry.is-done .entry-main strong { color: #819186; text-decoration: line-through; }
 .entry-open { width: 26px; height: 26px; display: grid; place-items: center; color: #67796e; border: 0; background: transparent; cursor: pointer; }
 .entry-open:hover { color: var(--gold); }
