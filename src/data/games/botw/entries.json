@@ -1,0 +1,119 @@
+[
+  {
+    "id": "sample-shrine-01",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Oman Au Shrine (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 610, "y": 585 },
+    "summary": "Magnesis Trial. This is an illustrative entry for testing the map and checklist.",
+    "sample": true,
+    "guide": [
+      { "title": "Enter the shrine", "description": "Use this sample guide to preview how walkthrough steps will appear." },
+      { "title": "Use Magnesis", "description": "The finished guide will include verified puzzle instructions and screenshots where useful." }
+    ]
+  },
+  {
+    "id": "sample-shrine-02",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Ja Baij Shrine (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 520, "y": 700 },
+    "summary": "Bomb Trial. Illustrative position only; not a verified map coordinate.",
+    "sample": true,
+    "guide": [{ "title": "Complete the trial", "description": "A verified step-by-step shrine walkthrough will be added here." }]
+  },
+  {
+    "id": "sample-shrine-03",
+    "game": "botw",
+    "category": "shrine",
+    "name": "Keh Namut Shrine (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 340, "y": 440 },
+    "summary": "Cryonis Trial. Illustrative entry for the initial interface.",
+    "sample": true,
+    "guide": [{ "title": "Complete the trial", "description": "The production guide will contain verified steps, treasure chest details and screenshots." }]
+  },
+  {
+    "id": "sample-tower-01",
+    "game": "botw",
+    "category": "tower",
+    "name": "Great Plateau Tower (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 490, "y": 570 },
+    "summary": "A Sheikah Tower. Sample position only.",
+    "sample": true
+  },
+  {
+    "id": "sample-korok-01",
+    "game": "botw",
+    "category": "korok",
+    "name": "Korok Seed 001 (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 455, "y": 620 },
+    "summary": "A sample Korok checklist entry. Its coordinates and puzzle are placeholders.",
+    "sample": true,
+    "guide": [{ "title": "Find the Korok", "description": "The final data set will include the correct puzzle type, nearby landmark and solution." }]
+  },
+  {
+    "id": "sample-korok-02",
+    "game": "botw",
+    "category": "korok",
+    "name": "Korok Seed 002 (sample)",
+    "region": "Dueling Peaks",
+    "coordinates": { "x": 1010, "y": 665 },
+    "summary": "A second sample Korok entry to test search, filters and completion progress.",
+    "sample": true
+  },
+  {
+    "id": "sample-stable-01",
+    "game": "botw",
+    "category": "stable",
+    "name": "Dueling Peaks Stable (sample)",
+    "region": "Dueling Peaks",
+    "coordinates": { "x": 1050, "y": 680 },
+    "summary": "A stable location. Sample position only.",
+    "sample": true
+  },
+  {
+    "id": "sample-town-01",
+    "game": "botw",
+    "category": "town",
+    "name": "Kakariko Village (sample)",
+    "region": "Necluda",
+    "coordinates": { "x": 1160, "y": 570 },
+    "summary": "A village location. Sample position only.",
+    "sample": true
+  },
+  {
+    "id": "sample-memory-01",
+    "game": "botw",
+    "category": "memory",
+    "name": "Captured Memory 01 (sample)",
+    "region": "Central Hyrule",
+    "coordinates": { "x": 760, "y": 300 },
+    "summary": "A story memory. This entry is illustrative and is not a real location record.",
+    "sample": true
+  },
+  {
+    "id": "sample-beast-01",
+    "game": "botw",
+    "category": "divine-beast",
+    "name": "Divine Beast Vah Ruta (sample)",
+    "region": "Lanayru",
+    "coordinates": { "x": 1230, "y": 380 },
+    "summary": "A main-story objective. Sample position only.",
+    "sample": true
+  },
+  {
+    "id": "sample-quest-01",
+    "game": "botw",
+    "category": "quest",
+    "name": "The Isolated Plateau (sample)",
+    "region": "Great Plateau",
+    "coordinates": { "x": 500, "y": 590 },
+    "summary": "A sample quest record used to demonstrate the story filter.",
+    "sample": true
+  }
+]
