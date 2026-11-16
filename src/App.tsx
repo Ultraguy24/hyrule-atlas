@@ -40,7 +40,7 @@ function App() {
   const completed = useMemo(() => new Set(progress[activeGame]), [progress, activeGame]);
   const completedCount = entries.filter((entry) => completed.has(entry.id)).length;
   const progressPercent = entries.length ? Math.round((completedCount / entries.length) * 100) : 0;
-  const searchMatches = search.trim() ? entries.filter((entry) => (!hideCompleted || !completed.has(entry.id)) && `${entry.name} ${entry.region} ${entry.category}`.toLowerCase().includes(search.toLowerCase())).slice(0, 7) : [];
+  const searchMatches = search.trim() ? entries.filter((entry) => (!hideCompleted || !completed.has(entry.id)) && `${entry.name} ${entry.region} ${entry.category} ${entry.tags?.join(' ') ?? ''}`.toLowerCase().includes(search.toLowerCase())).slice(0, 7) : [];
 
   function flash(message: string) {
     setToast(message);
@@ -103,7 +103,7 @@ function App() {
           <div className="progress-card">
             <div className="progress-card-top"><span className="sidebar-label">ADVENTURE LOG</span><span className="progress-percent">{progressPercent}%</span></div>
             <div className="progress-track"><span style={{ width: `${progressPercent}%` }} /></div>
-            <div className="progress-caption"><strong>{completedCount} <span>/ {entries.length}</span></strong><small>sample entries completed</small></div>
+            <div className="progress-caption"><strong>{completedCount} <span>/ {entries.length}</span></strong><small>locations completed</small></div>
           </div>
           {view === 'map' && <div className="map-filters">
             <div className="filter-title"><span className="sidebar-label">MAP LAYERS</span><button className="text-button" onClick={() => setVisibleCategories(new Set(categories.map((category) => category.id)))}>Show all</button></div>
@@ -114,7 +114,7 @@ function App() {
             })}</div>)}
             <label className="hide-layer"><input type="checkbox" checked={hideCompleted} onChange={(event) => setHideCompleted(event.target.checked)} /> Hide completed pins</label>
           </div>}
-          <div className="sidebar-bottom"><div className="privacy-note"><ShieldCheck size={15} /><span>No account. No tracking.<br />Your progress stays on this device.</span></div><span className="version-label">EARLY ACCESS / v0.1.0</span></div>
+          <div className="sidebar-bottom"><div className="privacy-note"><ShieldCheck size={15} /><span>No account. No tracking.<br />Your progress stays on this device.</span></div><span className="version-label">EARLY ACCESS / v0.2.0</span></div>
         </aside>
 
         {view === 'map' ? <section className="map-workspace">
@@ -128,8 +128,8 @@ function App() {
             </div>
           </div>
           <div className="map-stage">
-            <MapView entries={visibleMapEntries} visibleCategories={visibleCategories} completed={completed} selectedId={selectedEntry?.id ?? null} onSelect={setSelectedEntry} resetKey={resetKey} mapImage={currentGame.map!.image} mapWidth={currentGame.map!.width} mapHeight={currentGame.map!.height} />
-            <div className="map-overlay-top"><span className="map-coordinate-label">HYRULE FIELD MAP <i /> SURFACE PREVIEW</span><span className="map-scale">NOT TO SCALE</span></div>
+            <MapView entries={visibleMapEntries} visibleCategories={visibleCategories} completed={completed} selectedId={selectedEntry?.id ?? null} onSelect={setSelectedEntry} resetKey={resetKey} mapImage={currentGame.map!.image} mapWidth={currentGame.map!.width} mapHeight={currentGame.map!.height} coordinateBounds={currentGame.map!.coordinateBounds} />
+            <div className="map-overlay-top"><span className="map-coordinate-label">BOTW SURFACE REFERENCE <i /> SCHEMATIC</span><span className="map-scale">NOT TO SCALE</span></div>
             <div className="mobile-layer-tools">
               <button className="mobile-layer-button" onClick={() => setMobileLayersOpen((open) => !open)}><Layers size={15} /> Map layers <SlidersHorizontal size={13} /></button>
               {mobileLayersOpen && <div className="mobile-layer-panel">
@@ -140,14 +140,14 @@ function App() {
               </div>}
             </div>
             <div className="map-overlay-bottom"><div className="map-legend"><span><i className="legend-dot" /> Unfinished</span><span><i className="legend-dot done" /> Completed</span></div><span className="map-count">{entries.filter((entry) => entry.coordinates && visibleCategories.has(entry.category) && (!hideCompleted || !completed.has(entry.id))).length} MARKERS SHOWN</span></div>
-            <div className="map-disclaimer">Illustrative map and sample marker positions — verified BOTW map data is the next milestone.</div>
+            <div className="map-disclaimer">Original schematic basemap, not in-game terrain. Pins use normalized community map coordinates; placement is subject to refinement.</div>
             {selectedEntry && <EntryDetail entry={selectedEntry} complete={completed.has(selectedEntry.id)} onClose={() => setSelectedEntry(null)} onToggleComplete={() => toggleComplete(selectedEntry)} />}
           </div>
         </section> : view === 'checklist' ? <ChecklistView entries={entries} completed={completed} onToggleComplete={toggleComplete} onOpenEntry={setSelectedEntry} /> : <GuidesView entries={entries} onOpenEntry={setSelectedEntry} />}
         {view !== 'map' && selectedEntry && <EntryDetail entry={selectedEntry} complete={completed.has(selectedEntry.id)} onClose={() => setSelectedEntry(null)} onToggleComplete={() => toggleComplete(selectedEntry)} />}
       </main>
 
-      {showSettings && <div className="modal-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setShowSettings(false); }}><section className="settings-modal" role="dialog" aria-modal="true" aria-labelledby="settings-title"><div className="settings-heading"><div><span className="eyebrow">PREFERENCES / DATA</span><h2 id="settings-title">Your atlas</h2></div><button className="icon-button" onClick={() => setShowSettings(false)} aria-label="Close settings"><X size={18} /></button></div><p className="settings-intro">Your progress is stored in this browser. It is never uploaded to an account or server.</p><div className="settings-option"><div className="settings-option-icon"><Download size={18} /></div><div><strong>Export progress</strong><p>Download a JSON backup you can keep or move to another device.</p></div><button className="secondary-button" onClick={() => exportProgress(progress)}>Export</button></div><div className="settings-option"><div className="settings-option-icon"><Upload size={18} /></div><div><strong>Import progress</strong><p>Restore a previous Hyrule Atlas JSON backup.</p></div><button className="secondary-button" onClick={() => importRef.current?.click()}>Import</button><input ref={importRef} hidden type="file" accept="application/json,.json" onChange={(event) => void handleImport(event.target.files?.[0])} /></div><div className="settings-divider" /><div className="settings-meta"><span>Hyrule Atlas</span><span>Version 0.1.0 · BOTW preview</span></div></section></div>}
+      {showSettings && <div className="modal-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setShowSettings(false); }}><section className="settings-modal" role="dialog" aria-modal="true" aria-labelledby="settings-title"><div className="settings-heading"><div><span className="eyebrow">PREFERENCES / DATA</span><h2 id="settings-title">Your atlas</h2></div><button className="icon-button" onClick={() => setShowSettings(false)} aria-label="Close settings"><X size={18} /></button></div><p className="settings-intro">Your progress is stored in this browser. It is never uploaded to an account or server.</p><div className="settings-option"><div className="settings-option-icon"><Download size={18} /></div><div><strong>Export progress</strong><p>Download a JSON backup you can keep or move to another device.</p></div><button className="secondary-button" onClick={() => exportProgress(progress)}>Export</button></div><div className="settings-option"><div className="settings-option-icon"><Upload size={18} /></div><div><strong>Import progress</strong><p>Restore a previous Hyrule Atlas JSON backup.</p></div><button className="secondary-button" onClick={() => importRef.current?.click()}>Import</button><input ref={importRef} hidden type="file" accept="application/json,.json" onChange={(event) => void handleImport(event.target.files?.[0])} /></div><div className="settings-divider" /><div className="settings-meta"><span>Hyrule Atlas</span><span>Version 0.2.0 · BOTW location dataset</span></div></section></div>}
       {toast && <div className="toast" role="status"><Check size={15} />{toast}</div>}
       <footer className="mobile-footer"><button className={view === 'map' ? 'active' : ''} onClick={() => setView('map')}><Map size={18} /><span>Map</span></button><button className={view === 'checklist' ? 'active' : ''} onClick={() => setView('checklist')}><Grid2X2 size={18} /><span>Checklist</span></button><button className={view === 'guides' ? 'active' : ''} onClick={() => setView('guides')}><BookOpen size={18} /><span>Guides</span></button><button onClick={() => setShowSettings(true)}><Settings2 size={18} /><span>Settings</span></button></footer>
     </div>
