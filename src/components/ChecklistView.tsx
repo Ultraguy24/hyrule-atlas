@@ -14,19 +14,21 @@ export function ChecklistView({ entries, completed, onToggleComplete, onOpenEntr
   const [query, setQuery] = useState('');
   const [categoryFilter, setCategoryFilter] = useState<CategoryId | 'all'>('all');
   const [hideComplete, setHideComplete] = useState(false);
+  const [dlcOnly, setDlcOnly] = useState(false);
   const filtered = useMemo(() => entries.filter((entry) => {
-    const matchesQuery = `${entry.name} ${entry.region} ${entry.category}`.toLowerCase().includes(query.toLowerCase());
+    const matchesQuery = `${entry.name} ${entry.region} ${entry.category} ${entry.tags?.join(' ') ?? ''}`.toLowerCase().includes(query.toLowerCase());
     const matchesCategory = categoryFilter === 'all' || entry.category === categoryFilter;
     const matchesComplete = !hideComplete || !completed.has(entry.id);
-    return matchesQuery && matchesCategory && matchesComplete;
-  }), [entries, query, categoryFilter, hideComplete, completed]);
+    const matchesDlc = !dlcOnly || entry.tags?.includes('DLC') === true;
+    return matchesQuery && matchesCategory && matchesComplete && matchesDlc;
+  }), [entries, query, categoryFilter, hideComplete, dlcOnly, completed]);
 
   const grouped = categories.map((category) => ({
     category,
     items: filtered.filter((entry) => entry.category === category.id),
     total: entries.filter((entry) => entry.category === category.id).length,
     done: entries.filter((entry) => entry.category === category.id && completed.has(entry.id)).length,
-  })).filter((group) => group.items.length > 0 || (categoryFilter === 'all' && !query && group.total > 0));
+  })).filter((group) => group.items.length > 0 || (categoryFilter === 'all' && !query && !hideComplete && !dlcOnly && group.total > 0));
 
   return (
     <section className="content-view checklist-view">
@@ -37,6 +39,7 @@ export function ChecklistView({ entries, completed, onToggleComplete, onOpenEntr
         <label className="search-field"><Search size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search entries or regions…" /></label>
         <label className="filter-select"><SlidersHorizontal size={15} /><select value={categoryFilter} onChange={(event) => setCategoryFilter(event.target.value as CategoryId | 'all')}><option value="all">All categories</option>{categories.map((category) => <option key={category.id} value={category.id}>{category.plural}</option>)}</select></label>
         <label className="hide-complete"><input type="checkbox" checked={hideComplete} onChange={(event) => setHideComplete(event.target.checked)} /> Hide completed</label>
+        <label className="hide-complete"><input type="checkbox" checked={dlcOnly} onChange={(event) => setDlcOnly(event.target.checked)} /> DLC only</label>
       </div>
       {filtered.length === 0 ? <div className="empty-state"><Search size={24} /><strong>No matching entries</strong><span>Try another search or category.</span></div> : (
         <div className="checklist-groups">
@@ -53,7 +56,7 @@ export function ChecklistView({ entries, completed, onToggleComplete, onOpenEntr
                 return (
                   <div className={`checklist-entry ${isDone ? 'is-done' : ''}`} key={entry.id}>
                     <button className="check-toggle" onClick={() => onToggleComplete(entry)} aria-label={isDone ? `Mark ${entry.name} incomplete` : `Mark ${entry.name} complete`}>{isDone ? <Check size={15} /> : <Circle size={16} />}</button>
-                    <button className="entry-main" onClick={() => onOpenEntry(entry)}><strong>{entry.name}</strong><span>{entry.region}{entry.sample ? ' · sample' : ''}</span></button>
+                    <button className="entry-main" onClick={() => onOpenEntry(entry)}><strong>{entry.name}</strong><span className="entry-meta">{entry.region}{entry.tags?.includes('DLC') && <em className="entry-tag">DLC</em>}</span></button>
                     <button className="entry-open" onClick={() => onOpenEntry(entry)} aria-label={`Open ${entry.name}`}><ChevronRight size={17} /></button>
                   </div>
                 );
